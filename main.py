@@ -1,7 +1,6 @@
 import sys
-
 import pymysql, os
-from js逆向学习.拷贝漫画逆向.functions import *
+from functions import *
 
 connection = pymysql.connect(
     host='localhost',
